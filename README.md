@@ -6,17 +6,6 @@ The goal is to provide a controlled and fair comparison between ODE-based genera
 
 ---
 
-## Project Structure
-
-```
-.
-├── FlowMatching_vs_DDPM_Vorticity_BIG.ipynb
-├── GOOD FIGURE.ipynb
-└── README.md
-```
-
----
-
 ## Overview
 
 Two generative paradigms are compared:
