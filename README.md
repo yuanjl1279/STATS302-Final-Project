@@ -83,15 +83,6 @@ Radial spectrum log-error measuring mismatch in Fourier spectral energy distribu
 
 ---
 
-### Publication-Style Figures
-
-The notebook generates:
-
-- NFE vs SpecErr curves  
-- Method comparison plots  
-- High-quality visualizations suitable for reports or research presentations  
-
----
 
 ## Experimental Setup
 
