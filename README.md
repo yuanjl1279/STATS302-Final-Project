@@ -20,13 +20,12 @@ The comparison focuses on:
 - Generation quality  
 - Computational efficiency  
 - Spectral fidelity  
-- Gradient consistency  
 
 ---
 
 ## Notebook 1: Model Training
 
-### FlowMatching_vs_DDPM_Vorticity_BIG.ipynb
+### 01_train_flowmatching_ddpm.ipynb
 
 This notebook includes:
 
@@ -57,7 +56,7 @@ This notebook produces trained models and intermediate outputs used for benchmar
 
 ## Notebook 2: Benchmark & Figures
 
-### GOOD FIGURE.ipynb
+### 02_visualization_and_benchmark.ipynb
 
 This notebook focuses on evaluation and visualization.
 
@@ -75,15 +74,12 @@ This ensures fair computational comparison.
 
 ---
 
-### Quantitative Metrics
+### Quantitative Metric
 
-Two primary metrics are computed:
+The primary evaluation metric is:
 
 #### SpecErr  
 Radial spectrum log-error measuring mismatch in Fourier spectral energy distribution.
-
-#### H¹ Error  
-Measures field mismatch including spatial gradient differences.
 
 ---
 
@@ -91,7 +87,7 @@ Measures field mismatch including spatial gradient differences.
 
 The notebook generates:
 
-- NFE vs error curves  
+- NFE vs SpecErr curves  
 - Method comparison plots  
 - High-quality visualizations suitable for reports or research presentations  
 
@@ -127,11 +123,11 @@ This ensures fairness between:
 
 To reproduce the results:
 
-1. Run `FlowMatching_vs_DDPM_Vorticity_BIG.ipynb`
+1. Run `01_train_flowmatching_ddpm.ipynb`
    - Train models  
    - Generate samples  
 
-2. Run `GOOD FIGURE.ipynb`
+2. Run `02_visualization_and_benchmark.ipynb`
    - Load results  
    - Generate benchmark plots  
 
